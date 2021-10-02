@@ -1,0 +1,11 @@
+#inputBox {
+	width: 50vw;
+}
+
+#log {
+	width: 50vw;
+	height: 40vh;
+	border: 1px solid black;
+	margin: 1vw;
+	overflow: scroll;
+}

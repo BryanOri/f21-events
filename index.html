@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Using JavaScript Events</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="./events.js"></script>
+</head>
+<body onload="initialize();" onkeyup="handleOnKeyUp(event);" onkeydown="handleOnKeyDown(event);">
+	<input id="inputBox" placeholder="Type in here and then click away from this input box" onchange="handleInputChanged();">
+	<br>
+	<textarea id="log" readonly onmouseover="changeBgColor('gray');" onmouseout="changeBgColor('white');"></textarea>
+	<br>
+	<button id="clearButton" onclick="clearLog();">Clear the Log</button>
+</body>
+</html>
